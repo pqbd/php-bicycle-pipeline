@@ -1,0 +1,37 @@
+{
+  "name": "php-bicycle/php-bicycle-<NULL>"
+  , "type": "library"
+  , "description": "<NULL> is ..."
+  , "keywords": [ "alternative", "bicycle", "<NULL>"]
+  , "homepage": "https://github.com/pqbd/php-bicycle-<NULL>"
+  , "license": "BSD-3-Clause"
+  , "authors": 
+  [
+    {
+      "name": "Alexander Volkov"
+      , "email": "alx.volkov@gmail.com"
+      , "homepage": "http://volkov.cz"
+      , "role": "lead"
+    }
+  ]
+  , "autoload": { "psr-4": { "bicycle\\<NULL>\\": "src/bicycle/<NULL>/" } }
+  , "autoload-dev": { "psr-4": { "bicycle\\<NULL>\\": "tests/bicycle/<NULL>/"} }
+  , "require": 
+  {
+    "php": ">=5.3.9"
+    , "php-bicycle/php-bicycle": ">=1.0.0"
+  }
+  , "require-dev": { "php-bicycle/php-bicycle-test-tools": ">=1.0.0" }
+  , "repositories":
+  [ 
+    {
+      "type": "git"
+      , "url":  "https://github.com/pqbd/php-bicycle.git"
+    }
+    ,
+    {
+      "type": "git"
+      , "url":  "https://github.com/pqbd/php-bicycle-test-tools.git"
+    }
+  ]
+}
